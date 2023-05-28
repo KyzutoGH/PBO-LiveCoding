@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package W4Encapsulation;
+package LiveCodingPertama;
 
 import java.util.Scanner;
 
@@ -15,7 +15,8 @@ import java.util.Scanner;
  * User - TheVancr
  */
 public class MainKinetic {
-
+    
+    //Inisiasi Variabel
     public double massa, kecepatan;
     
     //Metode get mengembalikan nilai variabel massa.
