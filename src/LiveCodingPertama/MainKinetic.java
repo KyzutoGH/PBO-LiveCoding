@@ -41,7 +41,7 @@ public class MainKinetic {
         this.kecepatan = kecepatan;
     }
     
-    //Method Menghitung
+    //Method yang berfungsi untuk menghitung hasil inputan keyboard
     public double hitung(){
         return 0.5*massa*Math.pow(kecepatan,2);
     }
@@ -61,7 +61,7 @@ public class MainKinetic {
         kinetik.setMassa(varMassa.nextDouble());
         kinetik.setKecepatan(varKecepatan.nextDouble());
         
-        //Memanggil method hitung
+        //Memanggil method hitung dan menampilkannya
         System.out.println(kinetik.hitung());
     }
     
